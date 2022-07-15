@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta name="?" content="???">
+    <title>flex</title>
+    <style>
+        body {
+            margin: 0px;
+            height: 100vh;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .juzhong {
+            align-items: center;
+            justify-content: center;
+        }
+
+        * {
+            border: 1px solid black;
+        }
+
+        .wenzi {
+            margin: 03px auto;
+            max-width: 700px;
+        }
+
+        .aicenter {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body class="flex column">
+    <div class="flex juzhong" style="background-color:rgb(254,230,235); height: 80px; margin: 0px; padding: 20px;">
+        <h1 class="flex " style="color: darksalmon;">这是我的小个人网站！</h1>
+    </div>
+
+    <div class="flex" style="align-items: center; justify-content:center;">
+        <h2 style="color: cornflowerblue;">简介？我不知道怎么写啊</h2>
+    </div>
+
+    <div class="flex column">
+        <h3 style=" font-size: 15px;" class="wenzi">那感觉只能随便说说咯:</h3>
+        <p class="wenzi">
+            写这个个人网站的人是广东省<b>某农业大专</b>的大一学生！目前就读的专业是计算机科学与技术捏</p>
+        <p class="wenzi">
+            没有什么非常特殊的兴趣爱好，平时也就跟朋友同学玩玩游戏呢，或者是刷视频看看剧，又或者是边看直播边低效工作</p>
+        <p  class="wenzi">
+            打的游戏是什么？以前是英雄联盟，现在是CSGO不过更多的是等剧更新和睡觉辣<img src="../ku.png" alt="/大哭" width="20px" height="20px"><img
+                src="../ku.png" alt="/大哭" width="20px" height="20px"><img src="../ku.png" alt="/大哭" width="20px"
+                height="20px"></p>
+        <p class="wenzi">我要在这里我要强推《间谍过家家》,实在是太好看了。还有我的steam资料也可以看看(不过已经被我设置成私密了),都可以点击下方小按钮看看！</p>
+    </div>
+
+    <div class="flex column juzhong">
+        <div style="height:210px">
+            <img style="margin-right:20px;" src="../Anya1.jpg" alt="wakuwaku" width="200px" height="200px">
+            <img style="margin-left: 20px;" src="../Anya2.jpg" alt="wakuwaku" width="200px" height="200px">
+        </div>
+        <div><a style="margin-right:85px;"
+                href="https://www.bilibili.com/bangumi/play/ss41410?from_spmid=666.4.0.0"><button>点击一起看间谍过家家！</button></a>
+            <a style="margin-left:25px auto;"
+                href="https://steamcommunity.com/profiles/76561198929799703/"><button>点击看我的steam？</button></a>
+        </div>
+    </div>
+
+    <div class="flex juzhong column"
+        style="background-color:rgb(254,230,235); height: 80px; margin-top: 10px; padding: 10px;">
+        <p style="margin: 2px;">这些都是从B站一位up那里学的,你想了解吗？</p>
+        <p style="margin: 2px;">快来一起看看吧:
+            <a style="color: red;"
+                href="https://www.bilibili.com/video/BV1AF411s78P/?spm_id_from=333.788&vd_source=0778a3f2f363f4f085b25b21bf2ba94d">点击这里观看up主的B站视频</a>
+        </p>
+    </div>
+</body>
+
+</html>
